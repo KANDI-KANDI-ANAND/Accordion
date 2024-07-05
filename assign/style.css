@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.accordion{
+    margin: 5px auto;
+}
+.accordion-button{
+    background-color: rgb(64, 180, 64);
+    margin: 5px;
+    position: relative;
+}
+.accordion-button:hover{
+    background-color: rgb(39, 133, 39);
+    color: white;
+}
+.accordion-button:active, .accordion-button:focus,{
+    background-color: rgb(64, 180, 64);
+}
+.accordion-body{
+    background-color: rgb(157, 87, 87);
+}
